@@ -1,0 +1,35 @@
+To install packages listed in the `requirements.txt` file using `pip`, you can use the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+Make sure you are in the same directory where the `requirements.txt` file is located. This command will read the dependencies listed in the `requirements.txt` file and install them in the current virtual environment.
+
+Here's a step-by-step guide:
+
+1. Open your command prompt (Windows) or terminal (macOS/Linux).
+
+2. Navigate to the directory where your `requirements.txt` file is located using the `cd` command:
+   ```bash
+   cd /path/to/your/project
+   ```
+
+3. Activate your virtual environment (if you haven't already):
+   - On Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - On macOS and Linux:
+     ```bash
+     source venv/bin/activate
+     ```
+
+4. Install the packages listed in the `requirements.txt` file using the following command:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   This will install all the required packages specified in the `requirements.txt` file into your virtual environment.
+
+Remember to replace `/path/to/your/project` with the actual path to your project directory where the `requirements.txt` file is located.
